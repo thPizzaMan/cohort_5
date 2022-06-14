@@ -1,0 +1,29 @@
+button {
+    color: bisque;
+    margin: 20px;
+    background-color: red;
+}
+
+
+button:hover {
+    color: rgb(51, 255, 0);
+    background-color: aliceblue;
+}
+
+
+button:active {
+    color: rgb(255, 0, 200);
+    background-color: rgb(241, 15, 15);
+    font-size: 50px;
+}
+
+
+a:link {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+a:focus {
+    background-color: rgb(231, 22, 22);
+    color: rgb(37, 194, 17);
+}
