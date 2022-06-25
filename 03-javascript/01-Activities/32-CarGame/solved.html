@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>My First Object</title>
-  </head>
-  <body>
-
+    <title>Document</title>
+</head>
+<body>
     <script>
-
       var car = {
         make: "Honda",
-        model: "Fit",
-        color: "Blue Raspberry",
+        model: "type r",
+        color: "bluegrey",
         mileage: 3000,
         isWorking: true,
 
         driveToWork: function() {
-
+         
+         
           alert("Old Mileage: " + this.mileage);
 
-          this.mileage = this.mileage + 8;
+          this.mileage = this.mileage + 0;
 
           alert("New mileage: " + this.mileage);
         },
@@ -56,12 +55,12 @@
       // The car's mileage?
       console.log(car.mileage)
       // How would we run the car's driveToWork method?
-      console.log(car. driveToWork())
+      console.log(car. driveToWork(0))
       // How would we run the car's driveAroundWorld method?
-      console.log(car. drivearoundworld())
+      console.log(car.driveAroundWorld(1))
       // How would we run the getTuneUp method?
-      console.log(car. getTuneUp())
+      console.log(car. getTuneUp(2))
+            
     </script>
-    
-  </body>
+</body>
 </html>

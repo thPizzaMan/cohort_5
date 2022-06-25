@@ -15,19 +15,37 @@
 
       // Create a Function called "adder" that take three arguments (x, y, z).
       // The function should add the arguments together, and log the result to the console.
-
+         function adder(x,y,z){
+          return console.log(x+y+2)
+         }
 
       // Create a Function called "multiplier" that takes three arguments (x, y, z).
       // The function should multiply the arguments, and log the result to the console.
+      function multiplier(x,y,z){
+          return console.log(x*y*2)
+         }
 
 
       // Create a Function called "isString" that takes three arguments (x, y, z).
       // "isString" determines if all three arguments are strings and logs an appropriate response to the console.
+      function isString(x,y,z){
+         if (typeof x == "string" && typeof y == "string" &&  typeof 2 == "string"){
+          consloe.log(true)
+         }else {
+          console.log(false)
+         }
+      }
 
 
       // Create a Function called "vowelChecker" that takes in a single argument (x).
       // "vowlChecker" logs whether or not the input is a vowel.
-
+          function vowelChecker(x){
+            if (x === "a" || x === "y" || x ==="e" || x === "o" || x === "i") {
+             console.log("this is vowl");
+            }else {
+              console.log("not vowl")
+            }
+          }
 
       // BONUS
       // Creates a version of "adder" that returns its result. Function is called "adderReturn".
@@ -43,25 +61,25 @@
 
 
       // Call the adder function here.
-
+        adder(100,100,100);
 
       console.log("-------------------");
 
 
       // Call the multiplier function here.
-
+      multiplier(5,105,0)
 
       console.log("-------------------");
 
 
       // Call the isString function here.
-
+      isString( true, false )
 
       console.log("-------------------");
 
 
       // Call the vowelChecker function here.
-
+      vowelChecker("p")
 
       console.log("-------------------");
 
